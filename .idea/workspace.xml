@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ae0e68-0d40-496c-936a-0f7384680436" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_09/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/alturas/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/alturas/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/maior_posicao/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/maior_posicao/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/negativos/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/negativos/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/numeros_pares/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/numeros_pares/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/pensionato/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/pensionato/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetor/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetor/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetores/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetores/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
