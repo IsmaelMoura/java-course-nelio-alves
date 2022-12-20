@@ -1,6 +1,6 @@
-package com.ismael.moura;
+package com.ismael.moura.section_09;
 
-import com.ismael.moura.entities.Account;
+import com.ismael.moura.section_09.entities.Account;
 
 import java.util.Scanner;
 
