@@ -1,35 +1,52 @@
 package com.ismael.moura.section_10.main.application;
 
-import com.ismael.moura.section_10.main.entities.Product;
-
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Program {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
+        List<String> list = new ArrayList<>();
 
-        int n = scanner.nextInt();
-        Product[] vect = new Product[n];
+        list.add("Maria");
+        list.add("Alex");
+        list.add("Bob");
+        list.add("Anna");
+        list.add(2, "Marco");
 
-        for (int i = 0; i < vect.length; i++) {
-            scanner.nextLine();
-            String name = scanner.nextLine();
-            double price = scanner.nextDouble();
-            vect[i] = new Product(name, price);
+        System.out.println(list.size());
+
+        for (String name : list) {
+            System.out.println(name);
         }
 
-        double sum = 0.0;
+        System.out.println("--------------------------");
 
-        for (int i = 0; i < vect.length; i++) {
-            sum += vect[i].getPrice();
+        list.removeIf(name -> name.charAt(0) == 'M');
+        for (String name : list) {
+            System.out.println(name);
         }
 
-        double avg = sum / vect.length;
+        System.out.println("--------------------------");
+        System.out.println("Index of Bob: " + list.indexOf("Bob"));
+        System.out.println("Index of Marco: " + list.indexOf("Marco"));
 
-        System.out.printf("AVERAGE PRICE = %.2f%n", avg);
+        List<String> result = list
+                .stream()
+                .filter(name -> name.charAt(0) == 'A')
+                .collect(Collectors.toList());
 
-        scanner.close();
+        System.out.println("--------------------------");
+        for (String name : result) {
+            System.out.println(name);
+        }
+
+        System.out.println("--------------------------");
+        String name = list
+                .stream()
+                .filter(x -> x.charAt(0) == 'J')
+                .findFirst()
+                .orElse(null);
+        System.out.println(name);
     }
 }
