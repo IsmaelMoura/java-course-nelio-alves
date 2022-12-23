@@ -36,7 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-### Directories ###
-src/main/java/com/ismael/moura/section_09/main/
-src/main/java/com/ismael/moura/section_10/main/
