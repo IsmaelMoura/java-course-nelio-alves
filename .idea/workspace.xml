@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ae0e68-0d40-496c-936a-0f7384680436" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/application/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/HourContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/enums/WorkerLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -66,13 +61,14 @@
       <recent name="D:\ISMAEL\intellij-workspace\java-course-nelio-alves\src\main\java\com\ismael\moura\section_10\exercises\vetores" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ismael.moura.section_13.enumeracoes.ex02.entities" />
       <recent name="com.ismael.moura.section_09.entities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ismael.moura.section_10.exercises.vetores.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.Program">
+  <component name="RunManager" selected="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ismael.moura.section_13.main.application.Program" />
       <module name="java-course-nelio-alves" />
@@ -99,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.Program" />
+      <module name="java-course-nelio-alves" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ismael.moura.test" />
       <module name="java-course-nelio-alves" />
@@ -114,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.Program" />
         <item itemvalue="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.test" />
