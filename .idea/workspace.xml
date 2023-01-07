@@ -74,13 +74,13 @@
       <recent name="com.ismael.moura.section_10.exercises.vetores.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ismael.moura.section_14.exercises.ex01.application.Program">
-    <configuration name="com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.Program" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ismael.moura.section_14.exercises.ex02.application.Program" />
       <module name="java-course-nelio-alves" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.*" />
+          <option name="PATTERN" value="com.ismael.moura.section_14.exercises.ex02.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.com.ismael.moura.section_14.exercises.ex01.application.Program" />
         <item itemvalue="Application.com.ismael.moura.section_14.main.application.Program" />
         <item itemvalue="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex03.application.Program" />
         <item itemvalue="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex02.application.Program" />
-        <item itemvalue="Application.com.ismael.moura.section_13.enumeracoes.exercises.ex01.application.Program" />
       </list>
     </recent_temporary>
   </component>
