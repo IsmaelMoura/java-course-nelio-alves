@@ -44,7 +44,7 @@ public class Program {
                     bufferedWriter.write(product.getName() + "," + product.total());
                     bufferedWriter.newLine();
                 }
-                System.out.println(targetFile.getName() + " CREATED!");
+                System.out.println(targetFile.getName() + " was created successfully! Path: " + targetFile);
             } catch (IOException e) {
                 System.out.println("Error writing file: " + e.getMessage());
             }
