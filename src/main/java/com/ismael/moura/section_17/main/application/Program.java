@@ -1,27 +1,36 @@
 package com.ismael.moura.section_17.main.application;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.File;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        String[] lines = new String[]{
-                "Good moorning",
-                "Good afternoon",
-                "Good night"
-        };
+        Scanner scanner = new Scanner(System.in);
 
-        String path = "C:\\Windows\\Temp\\out.txt";
+        System.out.print("Enter a folder path: ");
+        String strPath = scanner.nextLine();
 
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path, true))) {
-            for (String line : lines) {
-                bufferedWriter.write(line);
-                bufferedWriter.newLine();
+        File path = new File(strPath);
+
+        File[] folders = path.listFiles(File::isDirectory);
+        System.out.println("FOLDERS: ");
+        if (folders != null) {
+            for (File folder : folders) {
+                System.out.println(folder);
             }
-        } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
         }
 
+        File[] files = path.listFiles(File::isFile);
+        System.out.println("FILES: ");
+        if (files != null) {
+            for (File file : files) {
+                System.out.println(file);
+            }
+        }
+
+        boolean success = new File(strPath + "\\subdirTESTE").mkdir();
+        System.out.println("Directory created successfully: " + success);
+
+        scanner.close();
     }
 }
