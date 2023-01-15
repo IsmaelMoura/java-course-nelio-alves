@@ -1,20 +1,23 @@
 package com.ismael.moura.section_17.main.application;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class Program {
     public static void main(String[] args) {
-        String path = "C:\\Windows\\Temp\\in.txt";
+        String[] lines = new String[]{
+                "Good moorning",
+                "Good afternoon",
+                "Good night"
+        };
 
-        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+        String path = "C:\\Windows\\Temp\\out.txt";
 
-            String line = br.readLine();
-
-            while (line != null) {
-                System.out.println(line);
-                line = br.readLine();
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path, true))) {
+            for (String line : lines) {
+                bufferedWriter.write(line);
+                bufferedWriter.newLine();
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
