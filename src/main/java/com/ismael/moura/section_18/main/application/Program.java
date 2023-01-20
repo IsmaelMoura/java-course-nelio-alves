@@ -1,22 +1,34 @@
 package com.ismael.moura.section_18.main.application;
 
-import com.ismael.moura.section_18.main.devices.ComboDevice;
-import com.ismael.moura.section_18.main.devices.ConcretePrinter;
-import com.ismael.moura.section_18.main.devices.ConcreteScanner;
+import com.ismael.moura.section_18.main.entities.Employee;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
-        ConcretePrinter p = new ConcretePrinter("1080");
-        p.processDoc("My Letter");
-        p.print("My Letter");
+        List<Employee> list = new ArrayList<>();
+        String path = "C:\\Windows\\Temp\\IN.txt";
 
-        ConcreteScanner s = new ConcreteScanner("2003");
-        s.processDoc("My Email");
-        System.out.println("Scan result: " + s.scan());
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+            String employeeCsv = br.readLine();
+            while (employeeCsv != null) {
+                String[] fields = employeeCsv.split(",");
+                list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
+                employeeCsv = br.readLine();
+            }
 
-        ComboDevice c = new ComboDevice("2081");
-        c.processDoc("My dissetation");
-        c.print("My dissetation");
-        System.out.println("Scan result: " + c.scan());
+            // uma forma de ordenar uma coleção
+            Collections.sort(list);
+            for (Employee employee : list) {
+                System.out.println(employee.getName() + ", " + employee.getSalary());
+            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
 }

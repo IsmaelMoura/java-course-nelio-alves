@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ae0e68-0d40-496c-936a-0f7384680436" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ComboDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ConcretePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ConcreteScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ComboDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ConcretePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/ConcreteScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/devices/Scanner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
