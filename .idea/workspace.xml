@@ -7,95 +7,8 @@
     <list default="true" id="02ae0e68-0d40-496c-936a-0f7384680436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_09/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_09/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_09/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/abaixo_da_media/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/abaixo_da_media/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/alturas/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/alturas/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/alturas/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/alturas/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/aprovados/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/aprovados/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/aprovados/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/aprovados/entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/dados_pessoas/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/dados_pessoas/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/dados_pessoas/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/dados_pessoas/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/exercicio_de_fixacao_2/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/exercicio_de_fixacao_2/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/exercicio_de_fixacao_2/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/exercicio_de_fixacao_2/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/exercicio_de_fixacao_3/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/exercicio_de_fixacao_3/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/maior_posicao/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/maior_posicao/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/mais_velho/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/mais_velho/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/mais_velho/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/mais_velho/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/media_pares/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/media_pares/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/negativos/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/negativos/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/numeros_pares/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/numeros_pares/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/pensionato/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/pensionato/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/pensionato/entities/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/pensionato/entities/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetor/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/soma_vetor/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/exercises/vetores/soma_vetores/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/exercises/vetores/soma_vetores/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/main/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/main/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_10/main/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_10/main/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex01/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex01/entities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex01/entities/HourContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex01/entities/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex01/entities/enums/WorkerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex01/entities/enums/WorkerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex02/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex02/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex02/entities/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex02/entities/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex02/entities/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex02/entities/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/model/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/model/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/model/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/model/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/model/entities/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/model/entities/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/model/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/model/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/exercises/ex03/model/enums/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/exercises/ex03/model/enums/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/main/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/main/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_13/enumeracoes/main/entities/enums/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_13/main/entities/enums/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex01/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex01/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex01/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex01/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex01/entities/OutsourcedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex01/entities/OutsourcedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex02/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex02/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex02/entities/ImportedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex02/entities/ImportedProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex02/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex02/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex02/entities/UsedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex02/entities/UsedProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex03/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex03/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex03/model/entities/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex03/model/entities/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex03/model/entities/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex03/model/entities/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex03/model/entities/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex03/model/entities/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex03/model/enums/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex03/model/enums/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex04/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex04/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex04/entities/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex04/entities/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex04/entities/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex04/entities/Individual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/exercises/ex04/entities/TaxPayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/exercises/ex04/entities/TaxPayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/main/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/main/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/main/entities/BusinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/main/entities/BusinessAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_14/main/entities/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_14/main/entities/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex01/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex01/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex01/model/entities/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex01/model/entities/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex01/model/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex01/model/exceptions/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex02/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex02/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex02/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex02/model/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/exercises/ex02/model/exceptions/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/exercises/ex02/model/exceptions/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_15/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_15/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_17/exercise/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_17/exercise/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_17/exercise/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_17/exercise/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_17/exercise/out/summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_17/exercise/out/summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_17/exercise/products.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_17/exercise/products.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_17/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_17/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/entities/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/entities/CarRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/entities/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/entities/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/entities/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/entities/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/services/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/services/BrazilTaxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/services/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/services/RentalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex01/model/services/TaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex01/model/services/TaxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/model/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/model/entities/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/model/entities/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/model/entities/Installment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/model/services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/model/services/ContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/model/services/OnlinePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/model/services/OnlinePaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/exercises/ex02/model/services/PaypalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/exercises/ex02/model/services/PaypalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/main/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ismael/moura/section_18/main/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/main/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/section_18/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_18/main/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/section_18/main/entities/Employee.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,16 +20,24 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -129,20 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ISMAEL/workspace/java-intellij/java-course-nelio-alves/src/main/java/com/ismael/moura&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/ISMAEL/workspace/java-intellij/java-course-nelio-alves/src/main/java/com/ismael/moura",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.toDoOptions"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ISMAEL\workspace\java-intellij\java-course-nelio-alves\src\main\java\com\ismael\moura" />
@@ -171,10 +92,11 @@
       <recent name="com.ismael.moura.section_09.entities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="section_18.main.services" />
       <recent name="com.ismael.moura.section_10.exercises.vetores.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.section_18.main.application.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_17.exercise.application.Program" />
       <module name="java-course-nelio-alves" />
@@ -240,6 +162,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.section_18.main.application.Program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

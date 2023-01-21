@@ -1,34 +1,29 @@
 package section_18.main.application;
 
-import section_18.main.entities.Employee;
+import section_18.main.services.InterestService;
+import section_18.main.services.UsaInterestService;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class Program {
+
     public static void main(String[] args) {
-        List<Employee> list = new ArrayList<>();
-        String path = "C:\\Windows\\Temp\\IN.txt";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            String employeeCsv = br.readLine();
-            while (employeeCsv != null) {
-                String[] fields = employeeCsv.split(",");
-                list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
-                employeeCsv = br.readLine();
-            }
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
 
-            // uma forma de ordenar uma coleção
-            Collections.sort(list);
-            for (Employee employee : list) {
-                System.out.println(employee.getName() + ", " + employee.getSalary());
-            }
-        } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+        System.out.print("Amount: ");
+        double amount = sc.nextDouble();
+        System.out.print("Months: ");
+        int months = sc.nextInt();
+
+        InterestService is = new UsaInterestService(1.0);
+        double payment = is.payment(amount, months);
+
+        System.out.println("Payment after " + months + " months:");
+        System.out.printf("%.2f%n", payment);
+
+        sc.close();
     }
 }
