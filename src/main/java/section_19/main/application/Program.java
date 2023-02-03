@@ -1,37 +1,36 @@
 package section_19.main.application;
 
-import section_19.main.entities.Product;
-import section_19.main.services.CalculationService;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Program {
 
     public static void main(String[] args) {
+        List<Integer> myInts = Arrays.asList(1, 2, 3, 4);
+        List<Double> myDoubles = Arrays.asList(3.14, 6.28);
+        List<Object> myObjs = new ArrayList<Object>();
 
-        List<Product> list = new ArrayList<>();
+        copy(myInts, myObjs);
+        printList(myObjs);
+        copy(myDoubles, myObjs);
+        printList(myObjs);
+    }
 
-        String path = "C:\\Windows\\Temp\\IN.txt";
+    public static void copy(List<? extends Number> source, List<? super Number> destiny) {
+        destiny.addAll(source);
+         /*
+         * o código acima equivale a isso
+         * for (Number number : source) {
+         *    destiny.add(number);
+         * }
+         */
+    }
 
-        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-
-            String line = br.readLine();
-            while (line != null) {
-                String[] fields = line.split(",");
-                list.add(new Product(fields[0], Double.parseDouble(fields[1])));
-                line = br.readLine();
-            }
-
-            Product x = CalculationService.max(list);
-            System.out.println("Most expensive:");
-            System.out.println(x);
-
-        } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
+    public static void printList(List<?> list) {
+        for (Object item : list) {
+            System.out.print(item + " ");
         }
+        System.out.println();
     }
 }
