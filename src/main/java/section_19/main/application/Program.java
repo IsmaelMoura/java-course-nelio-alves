@@ -1,36 +1,21 @@
 package section_19.main.application;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import section_19.main.entities.Product;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Program {
 
     public static void main(String[] args) {
-        List<Integer> myInts = Arrays.asList(1, 2, 3, 4);
-        List<Double> myDoubles = Arrays.asList(3.14, 6.28);
-        List<Object> myObjs = new ArrayList<Object>();
+        Set<Product> set = new HashSet<>();
 
-        copy(myInts, myObjs);
-        printList(myObjs);
-        copy(myDoubles, myObjs);
-        printList(myObjs);
-    }
+        set.add(new Product("TV", 900.00));
+        set.add(new Product("Notebook", 1200.00));
+        set.add(new Product("Table", 400.00));
 
-    public static void copy(List<? extends Number> source, List<? super Number> destiny) {
-        destiny.addAll(source);
-         /*
-         * o código acima equivale a isso
-         * for (Number number : source) {
-         *    destiny.add(number);
-         * }
-         */
-    }
+        Product product = new Product("Notebook", 1200.00);
 
-    public static void printList(List<?> list) {
-        for (Object item : list) {
-            System.out.print(item + " ");
-        }
-        System.out.println();
+        System.out.println(set.contains(product));
     }
 }
