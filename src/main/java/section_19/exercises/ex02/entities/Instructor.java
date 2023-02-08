@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class Instructor {
     private String name;
-    private Set<Course> courses = new TreeSet<>();
+    private final Set<Course> courses;
     private final Set<Student> students = new TreeSet<>();
 
     public Instructor(String name, Set<Course> courses) {

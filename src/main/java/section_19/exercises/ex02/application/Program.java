@@ -10,7 +10,7 @@ import java.util.TreeSet;
 
 public class Program {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
+        try (Scanner scanner = new Scanner(System.in)) {
             Set<Course> courses = new TreeSet<>();
             courses.add(new Course("A"));
             courses.add(new Course("B"));
@@ -18,11 +18,11 @@ public class Program {
 
             for (Course course : courses) {
                 System.out.print("How many students for course " + course.getName() + "? ");
-                int students = sc.nextInt();
+                int students = scanner.nextInt();
 
                 for (int i = 0; i < students; i++) {
                     System.out.print(course.getName() + ", Student ID: ");
-                    int studantID = sc.nextInt();
+                    int studantID = scanner.nextInt();
                     course.addStudent(new Student(studantID, Set.of(course)));
                 }
             }
