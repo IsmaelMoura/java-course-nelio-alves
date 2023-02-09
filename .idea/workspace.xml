@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02ae0e68-0d40-496c-936a-0f7384680436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/section_19/exercises/ex02/entities/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_19/exercises/ex02/entities/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/section_19/main/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section_19/main/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <recent name="com.ismael.moura.section_10.exercises.vetores.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.section_19.exercises.ex02.application.Program">
+  <component name="RunManager" selected="Application.section_19.main.application.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_19.exercises.ex01.application.Program" />
       <module name="java-course-nelio-alves" />
@@ -162,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.section_19.main.application.Program" />
         <item itemvalue="Application.section_19.exercises.ex02.application.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.section_19.main.application.Program" />
         <item itemvalue="Application.section_18.main.application.Program" />
       </list>
     </recent_temporary>

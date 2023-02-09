@@ -1,21 +1,29 @@
 package section_19.main.application;
 
-import section_19.main.entities.Product;
-
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Program {
 
     public static void main(String[] args) {
-        Set<Product> set = new TreeSet<>();
+        Map<String, String> cookies = new TreeMap<>();
 
-        set.add(new Product("TV", 900.00));
-        set.add(new Product("Notebook", 1200.00));
-        set.add(new Product("Table", 400.00));
+        cookies.put("username", "Maria");
+        cookies.put("email", "maria@gmail.com");
+        cookies.put("phone", "997111122");
 
-        for (Product product : set) {
-            System.out.println(product);
+        cookies.remove("email");
+        cookies.put("phone", "997111133"); // sobscreve o valor anterior
+
+        System.out.println("Contains 'phone' key: " + cookies.containsKey("phone")); // true
+        System.out.println("Phone number: " + cookies.get("phone")); // 997111133
+        System.out.println("Email: " + cookies.get("email")); // null
+        System.out.println("Size: " + cookies.size()); // 2
+
+        System.out.println("ALL COOKIES: ");
+
+        for (String key : cookies.keySet()) {
+            System.out.println(key + ": " + cookies.get(key));
         }
     }
 }
