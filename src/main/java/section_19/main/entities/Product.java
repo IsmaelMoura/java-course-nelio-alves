@@ -1,10 +1,8 @@
 package section_19.main.entities;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Objects;
 
-public class Product implements Comparable<Product> {
+public class Product {
     private String name;
     private Double price;
 
@@ -40,18 +38,5 @@ public class Product implements Comparable<Product> {
     @Override
     public int hashCode() {
         return Objects.hash(name, price);
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
-
-    @Override
-    public int compareTo(@NotNull Product o) {
-        return name.toUpperCase().compareTo(o.getName().toUpperCase());
     }
 }
