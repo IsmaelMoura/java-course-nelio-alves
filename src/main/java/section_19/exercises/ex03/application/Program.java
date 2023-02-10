@@ -18,7 +18,7 @@ public class Program {
         scanner.close();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            Map<Candidate, Integer> candidates = new LinkedHashMap<>();
+            Map<Candidate, Integer> candidateVotes = new LinkedHashMap<>();
             String line = br.readLine();
 
             while (line != null) {
@@ -27,17 +27,17 @@ public class Program {
                 int votes = Integer.parseInt(fields[1]);
                 Candidate candidate = new Candidate(name);
 
-                if (candidates.containsKey(candidate)) {
-                    votes += candidates.get(candidate);
+                if (candidateVotes.containsKey(candidate)) {
+                    votes += candidateVotes.get(candidate);
                 }
 
-                candidates.put(candidate, votes);
+                candidateVotes.put(candidate, votes);
 
                 line = br.readLine();
             }
 
-            for (Candidate candidate : candidates.keySet()) {
-                System.out.println(candidate.getName() + ": " + candidates.get(candidate));
+            for (Candidate candidate : candidateVotes.keySet()) {
+                System.out.println(candidate.getName() + ": " + candidateVotes.get(candidate));
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
