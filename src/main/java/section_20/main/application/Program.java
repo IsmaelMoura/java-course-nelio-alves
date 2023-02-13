@@ -1,10 +1,10 @@
 package section_20.main.application;
 
 import section_20.main.entities.Product;
+import section_20.main.util.PriceUpdate;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class Program {
     public static void main(String[] args) {
@@ -15,11 +15,8 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        list.removeIf(product -> product.getPrice() >= 100.0);
+        list.forEach(new PriceUpdate());
 
-        for (Product product : list) {
-            System.out.println(product);
-        }
-
+        list.forEach(System.out::println);
     }
 }

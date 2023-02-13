@@ -1,7 +1,5 @@
 package section_20.main.entities;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Product {
     private String name;
     private Double price;
@@ -27,20 +25,14 @@ public class Product {
         this.price = price;
     }
 
-    public static boolean staticProductPredicate(Product product) {
-        return product.getPrice() >= 100;
-    }
-
-
-    public boolean nonStaticProductPredicate() {
-        return price >= 100;
-    }
-
     @Override
     public String toString() {
         return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
+                "name='" +
+                name +
+                '\'' +
+                ", price=" +
+                String.format("%.2f", price) +
                 '}';
     }
 }
