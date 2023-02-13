@@ -29,6 +29,10 @@ public class Product {
         product.setPrice(product.getPrice() * 1.1);
     }
 
+    public void nonStaticPriceUpdate() {
+        price *= 1.1;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
