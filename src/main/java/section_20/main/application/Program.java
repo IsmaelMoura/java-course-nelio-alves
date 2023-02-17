@@ -1,24 +1,29 @@
 package section_20.main.application;
 
-import section_20.main.entities.Product;
-import section_20.main.model.services.ProductService;
-
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Program {
     public static void main(String[] args) {
-        List<Product> list = new ArrayList<>();
+        List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
 
-        list.add(new Product("Tv", 900.00));
-        list.add(new Product("Mouse", 50.00));
-        list.add(new Product("Tablet", 350.50));
-        list.add(new Product("HD Case", 80.90));
+        Stream<Integer> st1 = list.stream().map(x -> x * 10);
 
-        ProductService productService = new ProductService();
+        System.out.println(Arrays.toString(st1.toArray()));
 
-        double sum = productService.filteredSum(list, product -> product.getPrice() < 100);
+        Stream<String> st2 = Stream.of("Maria", "Alex", "Bob");
+        System.out.println(Arrays.toString(st2.toArray()));
 
-        System.out.println("Sum = " + String.format("%.2f", sum));
+        Stream<Integer> st3 = Stream.iterate(0, x -> x + 2).limit(10);
+        System.out.println(Arrays.toString(st3.toArray()));
+
+        Stream<Long> st4 = Stream
+                .iterate(
+                        new Long[] {0L, 1L},
+                        p -> new Long[] {p[1], p[0]+ p[1]}
+                )
+                .map(p -> p[0]);
+        System.out.println(Arrays.toString(st4.limit(50).toArray()));
     }
 }
